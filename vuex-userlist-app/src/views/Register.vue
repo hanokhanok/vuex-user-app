@@ -26,18 +26,15 @@ export default {
 .register {
   width: 100%;
   height: calc(100vh - 60px);
-  border: 1px solid red;
   display: flex;
   flex-wrap: wrap;
 }
 .form {
   width: 100%;
   height: 30%;
-  border: 2px solid blue;
 }
 .list {
   width: 100%;
   height: 70%;
-  border: 2px solid pink;
 }
 </style>
