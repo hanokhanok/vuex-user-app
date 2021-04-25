@@ -2,6 +2,7 @@
   <div class="userlist">
     <div class="grid">
       <div class="box" v-for="user in allUsers" :key="user.id">
+        {{ user.title }}
         {{ user.username }}<br>
         {{ user.email }}<br>
         {{ user.phone }}

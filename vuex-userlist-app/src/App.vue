@@ -3,7 +3,7 @@
     <div id="nav">
       <div class="menu">
       <router-link to="/">Home</router-link>
-      <router-link to="/register">Register</router-link>
+      <router-link to="/list">List</router-link>
       </div>
     </div>
     <div id="view">

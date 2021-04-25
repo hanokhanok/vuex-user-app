@@ -2,7 +2,7 @@
   <div class="home">
     <div class="ex">
     <p>Vue.js를 이용한 회원관리 app</p>
-    <span>register 메뉴를 클릭하고 회원을 등록, 관리하세요!</span>
+    <span>list 메뉴를 클릭하고 회원을 확인하세요!</span>
     </div>
   </div>
 </template>

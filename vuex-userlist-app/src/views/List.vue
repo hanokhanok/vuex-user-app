@@ -1,8 +1,5 @@
 <template>
-  <div class="register">
-    <div class="form">
-    <UserForm></UserForm>
-    </div>
+  <div class="userli">
     <div class="list">
     <UserList></UserList>
     </div>
@@ -10,31 +7,26 @@
 </template>
 
 <script>
-import UserForm from '../components/UserForm.vue';
 import UserList from '../components/UserList.vue';
 
 export default {
-  name: 'Register',
+  name: 'List',
   components: {
-    UserForm,
     UserList
   }
 }
 </script>
 
 <style scoped>
-.register {
+.userli {
   width: 100%;
   height: calc(100vh - 60px);
   display: flex;
   flex-wrap: wrap;
 }
-.form {
-  width: 100%;
-  height: 30%;
-}
 .list {
   width: 100%;
-  height: 70%;
+  height: 100%;
+  padding-top: 40px;
 }
 </style>
